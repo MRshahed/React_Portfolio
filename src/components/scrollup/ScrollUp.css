@@ -1,9 +1,9 @@
 .scrollup {
   position: fixed;
-  bottom: 20%;
+  bottom: 3rem;
   right: 2.5rem;
   background-color: var(--color-blue);
-  opacity: 0.8;
+  opacity: 0;
   padding: 0.3rem 0.5rem;
   border-radius: 0.4rem;
   z-index: var(--z-tooltip);
@@ -22,5 +22,31 @@
 }
 
 .show__scroll {
-  bottom: 3rem;
+  opacity: 1;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .scrollup {
+    right: 1.5rem;
+    padding: 0.25rem 0.4rem;
+  }
+  .scrollup__icon {
+    font-size: 1.25rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .scrollup {
+    bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
 }
