@@ -28,8 +28,10 @@
 .work__card {
 }
 .work__img {
-  width: 350px;
+  width: 360px;
   border-radius: 1rem;
+  background-color: var(--body-color);
+  height: 200px;
 }
 .work__img-discription {
   display: none;

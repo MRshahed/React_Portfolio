@@ -1,4 +1,4 @@
-import Work1 from "../../assets/work1.jpg";
+import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
@@ -12,6 +12,8 @@ export const projectsData = [
     category: "web",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+    github: "https://github.com/MRshahed/Modern-Restaurants.git",
+    live: "https://modernrestaurants.netlify.app/",
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ export const projectsData = [
     category: "app",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+    github: "",
+    live: "",
   },
   {
     id: 3,
@@ -28,6 +32,8 @@ export const projectsData = [
     category: "design",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+    github: "",
+    live: "",
   },
   {
     id: 4,
@@ -36,6 +42,8 @@ export const projectsData = [
     category: "app",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+    github: "",
+    live: "",
   },
   {
     id: 5,
@@ -44,6 +52,8 @@ export const projectsData = [
     category: "web",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+    github: "",
+    live: "",
   },
 ];
 

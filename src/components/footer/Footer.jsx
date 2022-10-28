@@ -27,7 +27,7 @@ const Footer = () => {
 
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/shahed.hossen/"
             className="footer__social-icon"
             target=""
           >
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://facebook.com/"
+            href="https://www.facebook.com/Shahedhossen.akash"
             className="footer__social-icon"
             target=""
           >
@@ -43,7 +43,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/MRshahed"
             className="footer__social-icon"
             target=""
           >
@@ -51,7 +51,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://linkdin.com/"
+            href="https://www.linkedin.com/in/shahedhossen/"
             className="footer__social-icon"
             target=""
           >

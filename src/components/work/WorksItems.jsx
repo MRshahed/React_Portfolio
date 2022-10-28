@@ -10,11 +10,11 @@ const WorksItems = ({ item }) => {
       </div>
       <div className="work__card-discription">
         <h3 className="work__title">{item.title}</h3>
-        <a className="work__button" href="#portfolio">
+        <a className="work__button" href={item.live}>
           Live
           <i className="bx bx-right-arrow-alt work__button-icon"></i>
         </a>
-        <a className="work__button" href="#portfolio">
+        <a className="work__button" href={item.github}>
           Github
           <i className="bx bx-right-arrow-alt work__button-icon"></i>
         </a>

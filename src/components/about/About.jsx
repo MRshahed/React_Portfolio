@@ -15,9 +15,10 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
-            velit id nibh placerat, et rhoncus massa imperdiet. In vestibulum
-            aliquet urna in rutrum. In volutpat arcu id nibh pellentesque.
+            I'm a Web Designer and Developer from Bangladesh. Coding is where i
+            found my passion. for me learing new technology is fun and it helps
+            me build websites that improve lives. I love Tea but Loves Coding
+            More.
           </p>
           <a className="button button--flex" href={CV} download="">
             Download CV
