@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -16,6 +16,7 @@
   --container-color: #30363d;
   --color-hover: #58a6ff;
   --color-blue: #58a6ff;
+  --color-footer: #161b22;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -130,7 +131,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
-  color: var(--color-blue);
+  color: var(--text-color);
 }
 
 .section__title,
@@ -153,15 +154,15 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--container-color);
-  color: var(--title-color-light);
+  background-color: var(--color-blue);
+  color: var(--container-color);
   padding: 1.1rem 1.75rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
 }
 
 .button:hover {
-  background-color: var(--color-hover);
+  background-color: var(--title-color);
 }
 
 .button__icon {

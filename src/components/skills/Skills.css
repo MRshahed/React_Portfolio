@@ -1,49 +1,17 @@
 .skills__container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
   justify-content: center;
+  column-gap: 6rem;
   align-items: center;
-  column-gap: 3rem;
 }
 
-.skills__content {
-  border: 1px solid var(--title-color);
-  padding: 2rem 3rem;
-  border-radius: 1.25rem;
-  background-color: var(--container-color);
-  color: var(--title-color);
+.sills__icon-container {
 }
-
-.skills__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  text-align: center;
-  margin-bottom: var(--mb-1-5);
-  color: var(--title-color-light);
-}
-.skills__box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 3rem;
-}
-
-.skills__group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  row-gap: 0.5rem;
-}
-
-.skills__data {
-  display: flex;
-  column-gap: 0.5rem;
-}
-
-.skills .bx-badge-check {
-  font-size: 1rem;
-  color: var(--color-blue);
+.skills__icon {
+  width: 120px;
+  height: 80px;
+  margin-bottom: 1rem;
 }
 .skills__name {
   font-size: var(--normal-font-size);
@@ -53,47 +21,38 @@
   color: var(--title-color-light);
 }
 
-.skills__level {
-  font-size: var(--tiny-font-size);
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
   .skills__container {
-    flex-direction: column;
-    row-gap: 3rem;
+    grid-template-columns: repeat(4, 40px);
+    column-gap: 5rem;
   }
-  .skills__content {
-    min-width: 55%;
-  }
-  .skills__box {
-    column-gap: 4rem;
+  .skills__icon {
+    width: 80px;
+    height: 60px;
+    margin-bottom: 1rem;
   }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  .skills__content {
-    width: 80%;
+  .skills__container {
+    grid-template-columns: repeat(3, 50px);
+    column-gap: 5rem;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .skills__content {
-    width: 100%;
-  }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .skills__content {
-    width: 100%;
+  .skills__container {
+    grid-template-columns: repeat(2, 60px);
+    column-gap: 3rem;
   }
-  .skills__box {
-    column-gap: 2rem;
+  .skills__icon {
+    margin-bottom: 2rem;
   }
 }

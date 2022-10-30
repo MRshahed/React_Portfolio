@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h1 className="section__title">Contact</h1>
-      <span className="section__subtitle">Let's build Something</span>
+      <span className="section__subtitle">Have Something on Mind ?</span>
 
       <div className="contact__container container">
         <div className="contact__content">

@@ -11,7 +11,7 @@
 .qualification__button {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  color: var(--title-color-light);
+  color: var(--title-color);
   margin: 0 var(--mb-1);
   cursor: pointer;
 }
@@ -52,14 +52,15 @@
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  color: var(--title-color-light);
+  color: var(--title-color);
+  margin-bottom: 0.5rem;
 }
 
 .qualification__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
-  color: var(--title-color);
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
 }
 
 .qualification__calender {

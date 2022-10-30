@@ -9,7 +9,7 @@ const Qualification = () => {
   return (
     <section className="qualification section" id="qualification">
       <h1 className="section__title">Qualification</h1>
-      <span className="section__subtitle">Qualifications & Background</span>
+      <span className="section__subtitle">Education & Experiences</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -48,7 +48,11 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Computer Science</h3>
+                <h3 className="qualification__title">
+                  Bechelor of Science in
+                  <br />
+                  Computer Science & Engineering
+                </h3>
                 <span className="qualification__subtitle">
                   Feni - University
                 </span>
@@ -70,7 +74,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">A level</h3>
+                <h3 className="qualification__title">
+                  Higher secondary School <br /> Science
+                </h3>
                 <span className="qualification__subtitle">
                   Chagolnaiya - Collage
                 </span>
@@ -82,7 +88,9 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title"> O level</h3>
+                <h3 className="qualification__title">
+                  Secondary School <br /> Science
+                </h3>
                 <span className="qualification__subtitle">
                   Shorshodi - School
                 </span>

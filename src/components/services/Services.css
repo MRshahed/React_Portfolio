@@ -5,29 +5,31 @@
 }
 
 .services__content {
-  position: relative;
-  border: 1px solid var(--title-color);
-  background-color: var(--container-color);
-  padding: 3rem 4rem 2rem 2.5rem;
+  border: 1px solid var(--container-color);
+  background-color: var(--color-footer);
+  padding: 3rem 3rem;
   border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .services__icon {
-  display: block;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--color-blue);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 2rem;
 }
 
 .services__title {
   font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 0.25rem;
   font-weight: var(--font-medium);
-  color: var(--title-color-light);
+  color: var(--title-color);
 }
 
 .services__button {
-  color: var(--title-color);
+  color: var(--text-color);
   font-size: var(--small-font-size);
   display: inline-flex;
   align-items: center;
@@ -64,7 +66,7 @@
 .services__modal-content {
   width: 500px;
   position: relative;
-  background-color: var(--container-color);
+  background-color: var(--color-footer);
   padding: 4.5rem 2.5rem 2.5rem;
   border-radius: 1.5rem;
 }
@@ -150,7 +152,7 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .services__icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 

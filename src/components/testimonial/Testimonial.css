@@ -3,8 +3,8 @@
 }
 
 .testimonial__card {
-  background-color: var(--container-color);
-  border: 1px solid var(--title-color);
+  background-color: var(--color-footer);
+  border: 1px solid var(--container-color);
   padding: 2rem 1.5rem;
   border-radius: 1.5rem;
   text-align: center;
@@ -20,11 +20,11 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-25);
-  color: var(--title-color-light);
+  color: var(--title-color);
 }
 .testimonial__description {
   font-size: var(--small-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .swiper-pagination-bullet {

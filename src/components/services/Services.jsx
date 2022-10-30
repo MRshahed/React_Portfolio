@@ -8,16 +8,12 @@ const Services = () => {
   return (
     <section className="services section" id="services">
       <h1 className="section__title">Services</h1>
-      <span className="section__subtitle">what i offer</span>
+      <span className="section__subtitle">What i'll do for You</span>
 
       <div className="services__container container">
         <div className="services__content">
-          <div>
-            <i className="uil uil-web-grid services__icon"></i>
-            <h3 className="services__title">
-              Product <br /> designer
-            </h3>
-          </div>
+          <i className="uil uil-web-grid services__icon"></i>
+          <h3 className="services__title">Ui/Ux Design</h3>
 
           <span className="services__button" onClick={() => toggleTab(1)}>
             View More
@@ -82,12 +78,8 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
-            <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__title">
-              Ui/Ux <br /> Designer
-            </h3>
-          </div>
+          <i className="bx bx-code-block services__icon"></i>
+          <h3 className="services__title">Development</h3>
 
           <span className="services__button" onClick={() => toggleTab(2)}>
             View More <i className="uil uil-arrow-right service__button"></i>
@@ -151,12 +143,8 @@ const Services = () => {
         </div>
 
         <div className="services__content">
-          <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
-              Visual <br /> Designer
-            </h3>
-          </div>
+          <i className="uil uil-edit services__icon"></i>
+          <h3 className="services__title">Visual Design</h3>
 
           <span className="services__button" onClick={() => toggleTab(3)}>
             View More <i className="uil uil-arrow-right service__button"></i>

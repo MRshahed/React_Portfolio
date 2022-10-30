@@ -12,7 +12,7 @@
 
 .scrollup__icon {
   font-size: 1.5rem;
-  color: var(--title-color-light);
+  color: var(--container-color);
 }
 .scrollup__icon:hover {
   color: var(--container-color);
