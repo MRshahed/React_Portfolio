@@ -39,7 +39,7 @@
 .about__title {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
-  color: var(--title-color-light);
+  color: var(--title-color);
 }
 
 .about__subtitle {
