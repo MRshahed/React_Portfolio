@@ -30,7 +30,7 @@ const Header = () => {
                 }
                 onClick={() => setActiveNav("#home")}
               >
-                <i className="uil uil-estate nav__icon"></i>
+                <i className="bx bx-home nav__icon"></i>
                 Home
               </a>
             </li>
@@ -58,7 +58,7 @@ const Header = () => {
                 }
                 onClick={() => setActiveNav("#skills")}
               >
-                <i className="uil uil-file-alt nav__icon"></i>
+                <i className="bx bx-file nav__icon"></i>
                 Skills
               </a>
             </li>

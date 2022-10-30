@@ -10,14 +10,10 @@ const Skills = () => {
       <span className="section__subtitle">Technology & Frameworks</span>
 
       <div className="skills__container container">
-        {Data.map((item, index) => (
+        {Data.map(({ name, id, url }) => (
           <div className="skills_icon-container">
-            <img
-              className="skills__icon"
-              src={item}
-              alt=" skill img"
-              key={index}
-            />
+            <img className="skills__icon" src={url} alt=" skill img" key={id} />
+            <h3 className="skills__icon-name">{name}</h3>
           </div>
         ))}
       </div>

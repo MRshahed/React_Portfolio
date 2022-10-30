@@ -12,18 +12,67 @@ import TailwindIcon from "../../assets/tailwind_css.svg";
 import GitIcon from "../../assets/git.svg";
 
 const Data = [
-  ReactIcon,
-  nodeIcon,
-  ExpressIcon,
-  JsIcon,
-  mongoIcon,
-  htmlIcon,
-  CssIcon,
-  BootstrapIcon,
-  FirebaseIcon,
-  FirgmaIcon,
-  TailwindIcon,
-  GitIcon,
+  {
+    id: 1,
+    name: "React.js",
+    url: ReactIcon,
+  },
+
+  {
+    id: 2,
+    name: "Javascript",
+    url: JsIcon,
+  },
+  {
+    id: 3,
+    name: "Node.js",
+    url: nodeIcon,
+  },
+  {
+    id: 4,
+    name: "Express.js",
+    url: ExpressIcon,
+  },
+  {
+    id: 5,
+    name: "MongoDB",
+    url: mongoIcon,
+  },
+  {
+    id: 6,
+    name: "HTML",
+    url: htmlIcon,
+  },
+  {
+    id: 7,
+    name: "CSS",
+    url: CssIcon,
+  },
+  {
+    id: 8,
+    name: "Bootstrap",
+    url: BootstrapIcon,
+  },
+  {
+    id: 9,
+    name: "Tailwind.CSS",
+    url: TailwindIcon,
+  },
+  {
+    id: 9,
+    name: "Git",
+    url: GitIcon,
+  },
+  {
+    id: 11,
+    name: "Firebase",
+    url: FirebaseIcon,
+  },
+  {
+    id: 12,
+    name: "Figma",
+    url: FirgmaIcon,
+  },
 ];
 
 export default Data;
