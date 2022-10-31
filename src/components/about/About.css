@@ -3,13 +3,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  column-gap: 4rem;
+  column-gap: 3rem;
 }
 
 .about__img {
   width: 350px;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   justify-self: center;
+  border: 3px solid var(--container-color);
 }
 
 .about__info {
@@ -18,7 +19,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: var(--mb-2);
-  column-gap: 2rem;
+  column-gap: 1rem;
 }
 
 .about__box {
@@ -26,13 +27,13 @@
   border: 1px solid var(--container-color);
   border-radius: 0.75rem;
   text-align: center;
-  padding: 1rem 1rem;
-  width: 100%;
+  padding: 1rem 0;
+  width: 150px;
 }
 
 .about__icon {
   font-size: 1.2rem;
-  color: var(--color-blue);
+  color: var(--title-color);
   margin-bottom: var(--mb-0-5);
 }
 
@@ -44,12 +45,15 @@
 
 .about__subtitle {
   font-size: var(--tiny-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
 }
 .about__description {
   margin-bottom: var(--mb-2);
   padding-right: 3rem;
-  color: var(--text-color);
+  color: var(--title-color);
+  line-height: 1.6rem;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-normal);
 }
 
 /*=============== BREAKPOINTS ===============*/

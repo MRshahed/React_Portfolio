@@ -2,6 +2,7 @@ import React from "react";
 import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
+import Img from "../../assets/profile.webp";
 import "./Home.css";
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
         <div className="home__content grid">
           <Social />
 
-          <div className="home__img"></div>
+          <div className="home__img">
+            <img src={Img} alt="shahed hossen" />
+          </div>
           <Data />
         </div>
         <ScrollDown />

@@ -6,7 +6,7 @@
   margin-bottom: var(--mb-2);
 }
 .work__item {
-  color: var(--title-color-light);
+  color: var(--title-color);
   padding: 0.25rem 0.75rem;
   /* background-color: var(--container-color); */
   border-radius: 0.5rem;
@@ -26,12 +26,13 @@
 }
 
 .work__card {
+  width: 400px;
 }
 .work__img {
-  width: 360px;
+  width: 100%;
   border-radius: 1rem;
   background-color: var(--body-color);
-  height: 200px;
+  height: 220px;
 }
 .work__img-discription {
   display: none;

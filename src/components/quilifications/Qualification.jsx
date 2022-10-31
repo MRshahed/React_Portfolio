@@ -57,7 +57,7 @@ const Qualification = () => {
                   Feni - University
                 </span>
                 <div className="qualification__calender">
-                  <i class="bx bx-calendar"></i>2017 - 2021
+                  <i className="bx bx-calendar"></i>2017 - 2021
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Qualification = () => {
                   Freelence - Fiver
                 </span>
                 <div className="qualification__calender">
-                  <i class="bx bx-calendar"></i>2021 - present
+                  <i className="bx bx-calendar"></i>2021 - present
                 </div>
               </div>
             </div>
