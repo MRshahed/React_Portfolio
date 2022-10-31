@@ -108,7 +108,7 @@
   color: var(--title-color);
   font-weight: var(--font-medium);
   margin-left: var(--mb-0-25);
-  margin-left: 2px;
+  margin-right: var(--mb-0-25);
 }
 
 .home__scroll-arrow {

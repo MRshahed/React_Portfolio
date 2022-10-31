@@ -81,7 +81,13 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .work__container {
-    gap: 1.25rem;
+    gap: 1.5rem;
+  }
+  .work__card {
+    width: 350px;
+  }
+  .work__img {
+    height: 200px;
   }
 }
 
@@ -96,13 +102,21 @@
 @media screen and (max-width: 576px) {
   .work__container {
     grid-template-columns: 1fr;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+  }
+  .work__card {
+    width: 100%;
   }
   .work__img {
-    width: 100%;
+    width: 350px;
+    height: 180px;
   }
   .work__card-discription {
-    width: 100%;
+    width: 350px;
     column-gap: 0.25rem;
+    padding: 0.75rem 0 0.75rem 0.75rem;
   }
   .work__button {
     column-gap: 0;
@@ -115,5 +129,8 @@
   .work__card-discription {
     width: 100%;
     column-gap: 0;
+  }
+  .work__card {
+    width: 320px;
   }
 }
