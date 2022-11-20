@@ -2,7 +2,7 @@ import React from "react";
 import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
-import Img from "../../assets/profile.webp";
+import Img from "../../assets/profile.png";
 import "./Home.css";
 const Home = () => {
   return (
