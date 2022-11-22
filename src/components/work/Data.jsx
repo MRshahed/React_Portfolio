@@ -8,10 +8,11 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
+    title: "Modern Resturants",
     category: "web",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+      "A Modern responsive and eye-catching UI/UX Desing for restaurants. The Desing has Multiple Sections including Menu, About, Chef's Word, Award & Contact.",
+    tech: "React.js, Javascript, HTML, CSS, MediaQuery",
     github: "https://github.com/MRshahed/Modern-Restaurants.git",
     live: "https://modernrestaurants.netlify.app/",
   },
@@ -21,7 +22,7 @@ export const projectsData = [
     title: "App movil",
     category: "app",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
     github: "",
     live: "",
   },
@@ -31,7 +32,7 @@ export const projectsData = [
     title: "Brand design",
     category: "design",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
     github: "",
     live: "",
   },
@@ -41,7 +42,7 @@ export const projectsData = [
     title: "App movil",
     category: "app",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
     github: "",
     live: "",
   },
@@ -51,7 +52,7 @@ export const projectsData = [
     title: "Web design",
     category: "web",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
     github: "",
     live: "",
   },

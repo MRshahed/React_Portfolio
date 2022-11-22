@@ -5,12 +5,13 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Shahed Hossen
+        Hello, I'm Shahed Hossen
         <img src={Hand} alt="hand" className="home__hand " />
       </h1>
-      <h3 className="home__subtitle">Web Developer</h3>
+      <h3 className="home__subtitle">Full-Stack Developer</h3>
       <p className="home__description">
-        Turn your idea into web sites. Let's build something amazing together.
+        I'm a Self-taught Web application Developer. I'm passionate. I’m
+        innovative. I love Building Things for the Web.
       </p>
       <a href="#contact" className="button button--flex">
         Say hello

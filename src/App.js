@@ -16,17 +16,14 @@ function App() {
   return (
     <>
       <Header />
-
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Work />
-        <Testimonial />
-        <Contact />
-      </main>
+      <Home />
+      <About />
+      <Skills />
+      <Services />
+      <Qualification />
+      <Work />
+      <Testimonial />
+      <Contact />
       <ScrollUp />
       <Footer />
     </>

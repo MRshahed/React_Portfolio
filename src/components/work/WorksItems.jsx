@@ -3,10 +3,12 @@ import React from "react";
 const WorksItems = ({ item }) => {
   return (
     <div className="work__card" key={item.id}>
-      <div>
-        <img src={item.image} alt=" " className="work__img" />
-
-        <p className="work__img-discription">{item.discription}</p>
+      <img src={item.image} alt=" " className="work__img" />
+      <div className="work__description-container">
+        <p className="work__discription">{item.discription}</p>
+        <p className="work__tech">
+          <b className="work__tech-title">Technology :</b> {item.tech}
+        </p>
       </div>
       <div className="work__card-discription">
         <h3 className="work__title">{item.title}</h3>
