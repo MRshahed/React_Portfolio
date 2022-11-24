@@ -19,10 +19,10 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Services />
       <Qualification />
       <Work />
       <Testimonial />
+      <Services />
       <Contact />
       <ScrollUp />
       <Footer />

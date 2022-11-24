@@ -1,5 +1,5 @@
 import Work1 from "../../assets/work1.png";
-import Work2 from "../../assets/work2.jpg";
+import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
@@ -9,7 +9,7 @@ export const projectsData = [
     id: 1,
     image: Work1,
     title: "Modern Resturants",
-    category: "web",
+    category: "REACT",
     discription:
       "A Modern responsive and eye-catching UI/UX Desing for restaurants. The Desing has Multiple Sections including Menu, About, Chef's Word, Award & Contact.",
     tech: "React.js, Javascript, HTML, CSS, MediaQuery",
@@ -19,18 +19,19 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: "App movil",
-    category: "app",
+    title: "Blog Website",
+    category: "MERN",
     discription:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
-    github: "",
+      "A Blog website where Users can Create, Read, Update & Delete their own posts & User profiles with Login & Registration. Users can also read other users posts.",
+    tech: "React.js, Javascript, Node.js, Express.js, MongoDB, Rest API, Context API, HTML, CSS",
+    github: "https://github.com/MRshahed/MERN-BlogSite.git",
     live: "",
   },
   {
     id: 3,
     image: Work3,
     title: "Brand design",
-    category: "design",
+    category: "REACT",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
     github: "",
@@ -40,17 +41,19 @@ export const projectsData = [
     id: 4,
     image: Work4,
     title: "App movil",
-    category: "app",
+    category: "MERN",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
+
     github: "",
+
     live: "",
   },
   {
     id: 5,
     image: Work5,
     title: "Web design",
-    category: "web",
+    category: "REACT",
     discription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat",
     github: "",
@@ -60,15 +63,16 @@ export const projectsData = [
 
 export const ProjectsNav = [
   {
-    name: "All",
+    name: "ALL",
   },
   {
-    name: "web",
+    name: "MERN",
   },
   {
-    name: "app",
+    name: "REACT",
   },
-  {
-    name: "design",
-  },
+
+  // {
+  //   name: "design",
+  // },
 ];

@@ -4,7 +4,7 @@ const WorksItems = ({ item }) => {
   return (
     <div className="work__card" key={item.id}>
       <img src={item.image} alt=" " className="work__img" />
-      <div className="work__description-container">
+      <div className="work__discription-container">
         <p className="work__discription">{item.discription}</p>
         <p className="work__tech">
           <b className="work__tech-title">Technology :</b> {item.tech}
@@ -12,14 +12,16 @@ const WorksItems = ({ item }) => {
       </div>
       <div className="work__card-discription">
         <h3 className="work__title">{item.title}</h3>
-        <a className="work__button" href={item.live}>
-          Live
-          <i className="bx bx-right-arrow-alt work__button-icon"></i>
-        </a>
-        <a className="work__button" href={item.github}>
-          Github
-          <i className="bx bx-right-arrow-alt work__button-icon"></i>
-        </a>
+        <div className="work__button-container">
+          <a className="work__button" href={item.live}>
+            Live
+            <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          </a>
+          <a className="work__button" href={item.github}>
+            Github
+            <i className="bx bx-right-arrow-alt work__button-icon"></i>
+          </a>
+        </div>
       </div>
     </div>
   );
