@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <a href="/" className="nav__logo">
           Shahed
         </a>
 
@@ -24,7 +24,7 @@ const Header = () => {
           <ul className="nav__list">
             <li className="nav__item">
               <a
-                href="#home"
+                href="/"
                 className={
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
                 }
@@ -63,7 +63,7 @@ const Header = () => {
               </a>
             </li>
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a
                 href="#services"
                 className={
@@ -76,7 +76,7 @@ const Header = () => {
                 <i className="uil uil-briefcase-alt nav__icon"></i>
                 Services
               </a>
-            </li>
+            </li> */}
 
             <li className="nav__item">
               <a

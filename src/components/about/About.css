@@ -112,6 +112,10 @@
   .about__container {
     width: 88.5%;
   }
+  .about__img {
+    height: 300px;
+    object-fit: cover;
+  }
 }
 
 /* For small devices */

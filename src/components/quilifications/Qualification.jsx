@@ -49,6 +49,23 @@ const Qualification = () => {
             <div className="qualification__data">
               <div className="qualification__data-section">
                 <h3 className="qualification__title">
+                  Full-Stack Web Development BootCamp
+                </h3>
+                <span className="qualification__subtitle">Udemy.com</span>
+                <div className="qualification__calender">
+                  <i className="bx bx-calendar"></i>2021 - 2021
+                </div>
+                <p className="qualification__description">
+                  I have completed "The Complte Full-Stack Web Development
+                  BootCamp" Course from udemy.com taught by DR. Angela YU. I've
+                  learned The MERN stack Development and have completed 7+
+                  projects.
+                </p>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div className="qualification__data-section">
+                <h3 className="qualification__title">
                   Bechelor of Science in
                   <br />
                   Computer Science & Engineering
@@ -59,6 +76,11 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="bx bx-calendar"></i>2017 - 2021
                 </div>
+                <p className="qualification__description">
+                  I have completed my graduation "Bechelor of Science in
+                  Computer Science and Engineering "from department of Computer
+                  Science & Engineering Feni University.
+                </p>
               </div>
             </div>
           </div>
@@ -79,6 +101,10 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="bx bx-calendar"></i>2021 - present
                 </div>
+                <p className="qualification__description">
+                  I've been working as a Freelence Developer for some times. it
+                  mostly for gathering knowledge about real world projects.
+                </p>
               </div>
             </div>
           </div>

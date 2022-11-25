@@ -37,29 +37,35 @@
 }
 .work__discription-container {
   margin: 1rem 0 1.5rem 0;
-  height: 120px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .work__discription {
   margin: 1rem 0;
   text-align: initial;
   line-height: 1.4rem;
-  color: var(--title-color);
+  color: var(--text-color);
   font-size: var(--small-font-size);
   padding-right: 0rem;
 }
 .work__tech {
-  color: var(--text-color);
+  color: var(--title-color);
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
+  word-spacing: 1rem;
+  line-height: 1.7rem;
 }
 .work__card-discription {
   background-color: var(--color-footer);
   border: 1px solid var(--container-color);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1rem 1.2rem 1rem 1rem;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   margin-bottom: 0.5rem;
 }

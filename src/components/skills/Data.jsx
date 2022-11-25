@@ -6,7 +6,8 @@ import mongoIcon from "../../assets/mongodb.svg";
 import htmlIcon from "../../assets/html5.svg";
 import CssIcon from "../../assets/css.svg";
 import BootstrapIcon from "../../assets/bootstrap.svg";
-import FirebaseIcon from "../../assets/firebase.svg";
+// import FirebaseIcon from "../../assets/firebase.svg";
+import RestApi from "../../assets/restapi.svg";
 import FirgmaIcon from "../../assets/figma.svg";
 import TailwindIcon from "../../assets/tailwind_css.svg";
 import GitIcon from "../../assets/git.svg";
@@ -65,8 +66,8 @@ const Data = [
   },
   {
     id: 11,
-    name: "Firebase",
-    url: FirebaseIcon,
+    name: "Rest API",
+    url: RestApi,
   },
   {
     id: 12,

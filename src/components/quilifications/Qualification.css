@@ -45,24 +45,23 @@
 }
 .qualification__data-section {
   background-color: var(--color-footer);
-  padding: 4rem 4rem;
+  padding: 2rem;
   border: 1px solid var(--container-color);
-  border-radius: 1.2rem;
+  border-radius: 1rem;
   width: 600px;
+  margin-bottom: 2rem;
 }
 .qualification__data {
   display: flex;
   column-gap: 2rem;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .qualification__title {
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   color: var(--title-color);
   margin-bottom: 0.5rem;
-  text-align: center;
 }
 
 .qualification__subtitle {
@@ -74,6 +73,12 @@
 
 .qualification__calender {
   font-size: var(--small-font-size);
+}
+.qualification__description {
+  margin-top: 1rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-light);
+  width: 100%;
 }
 .bx-calendar {
   margin-right: 0.25rem;
@@ -117,7 +122,7 @@
 
 @media screen and (max-width: 576px) {
   .qualification__data-section {
-    width: 350px;
+    width: 400px;
     padding: 2rem;
   }
   .qualification__button {

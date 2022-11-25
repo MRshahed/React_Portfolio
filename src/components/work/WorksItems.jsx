@@ -6,9 +6,8 @@ const WorksItems = ({ item }) => {
       <img src={item.image} alt=" " className="work__img" />
       <div className="work__discription-container">
         <p className="work__discription">{item.discription}</p>
-        <p className="work__tech">
-          <b className="work__tech-title">Technology :</b> {item.tech}
-        </p>
+
+        <p className="work__tech">{item.tech}</p>
       </div>
       <div className="work__card-discription">
         <h3 className="work__title">{item.title}</h3>
