@@ -28,7 +28,7 @@
 
 .skills__icon-name {
   color: var(--title-color);
-  font-size: var(--h3-font-size);
+  font-size: var(--normal-font-size);
   font-weight: var(--font-normal);
 }
 

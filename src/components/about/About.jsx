@@ -3,6 +3,7 @@ import AboutImg from "../../assets/S2.jpg";
 import CV from "../../assets/Shahed_CV.pdf";
 import Info from "./Info";
 import Files from "../../assets/files.svg";
+import AboutImg2 from "../../assets/S3.jpg";
 import "./About.css";
 const About = () => {
   return (
@@ -10,7 +11,13 @@ const About = () => {
       <h1 className="section__title">About Me</h1>
       <span className="section__subtitle">Let Me Indroduce Myself</span>
       <div className="about__container container">
-        <img src={AboutImg} alt="about img" className="about__img" />
+        <picture>
+          <picture>
+            <source media="(orientation: portrait)" srcset={AboutImg2} />
+            <img src={AboutImg} alt="about img" className="about__img" />
+          </picture>
+        </picture>
+
         <div className="about__data">
           <p className="about__description">
             I'm a passionate web application Developer from Bangladesh. With
