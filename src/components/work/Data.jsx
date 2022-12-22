@@ -3,18 +3,19 @@ import Work2 from "../../assets/work2.png";
 import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
+import Work6 from "../../assets/work6.png";
 
 export const projectsData = [
   {
-    id: 1,
-    image: Work1,
-    title: "Modern Resturants",
-    category: "REACT",
+    id: 6,
+    image: Work6,
+    title: "Ecommerce App",
+    category: "MERN",
     discription:
-      "A Modern responsive and eye-catching UI/UX Desing for restaurants. The Desing has Multiple Sections including Menu, About, Chef's Word, Award & Contact.",
-    tech: "React.js Javascript HTML CSS MediaQuery",
-    github: "https://github.com/MRshahed/Modern-Restaurants.git",
-    live: "https://modernrestaurants.netlify.app/",
+      "A Modern responsive eCommerce web app with login registration and online payment system. admin can add delete or modify products from Dashboard and view the order summary.",
+    tech: "React.js Redux Firebase Socket.io Stripe JWT Javascript Tailwind.CSS Material.UI Node.js Express.js MongoDB RestAPI HTML CSS",
+    github: "https://github.com/MRshahed/MERN-E-Commerce.git",
+    live: "",
   },
   {
     id: 2,
@@ -27,6 +28,18 @@ export const projectsData = [
     github: "https://github.com/MRshahed/MERN-BlogSite.git",
     live: "",
   },
+  {
+    id: 1,
+    image: Work1,
+    title: "Modern Resturants",
+    category: "REACT",
+    discription:
+      "A Modern responsive and eye-catching UI/UX Desing for restaurants. The Desing has Multiple Sections including Menu, About, Chef's Word, Award & Contact.",
+    tech: "React.js Javascript HTML CSS MediaQuery",
+    github: "https://github.com/MRshahed/Modern-Restaurants.git",
+    live: "https://modernrestaurants.netlify.app/",
+  },
+
   {
     id: 3,
     image: Work3,
